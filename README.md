@@ -38,15 +38,35 @@ The go-touchcon project comes with several wrappers/executables found in the `cm
 
 ## Running gtc
 
-Going through all the possible command line flags is out of scope here, but we've
+Going through all the possible command line flags is out of scope here (please consult the compatible Go-Ethereum
+[CLI Wiki page](https://github.com/ethereum/go-ethereum/wiki/Command-Line-Options)), but we've
 enumerated a few common parameter combos to get you up to speed quickly on how you can run your
-own gtc instance.
+own GTC instance.
 
 ### Full node on the main TouchCon network
 
+By far the most common scenario is people wanting to simply interact with the TouchCon network:
+create accounts; transfer funds; deploy and interact with contracts. For this particular use-case
+the user doesn't care about years-old historical data, so we can fast-sync quickly to the current
+state of the network. To do so:
+
 ```
-$ gtc console
+$ gtc --fast --cache=512 console
 ```
+
+This command will:
+
+ * Start GTC in fast sync mode (`--fast`), causing it to download more data in exchange for avoiding
+   processing the entire history of the Musicoin network, which is very CPU intensive.
+ * Bump the memory allowance of the database to 512MB (`--cache=512`), which can help significantly in
+   sync times especially for HDD users. This flag is optional and you can set it as high or as low as
+   you'd like, though we'd recommend the 512MB - 2GB range.
+ * Start up GTC's built-in interactive [JavaScript console](https://github.com/ethereum/go-ethereum/wiki/JavaScript-Console),
+   (via the trailing `console` subcommand) through which you can invoke all official [`web3` methods](https://github.com/ethereum/wiki/wiki/JavaScript-API)
+   as well as GTC's own [management APIs](https://github.com/ethereum/go-ethereum/wiki/Management-APIs).
+   This too is optional and if you leave it out you can always attach to an already running GTC instance
+   with `gtc attach`.
+
 
 ### Programatically interfacing GTC nodes
 
