@@ -39,7 +39,7 @@ var (
 		EIP155Block:    big.NewInt(0),
 		EIP158Block:    big.NewInt(0),
 		ByzantiumBlock: big.NewInt(0),
-		IncreaseRewardBlock: big.NewInt(1172000),
+		IncreaseRewardBlock: big.NewInt(1174000),
 
 		Ethash: new(EthashConfig),
 	}
