@@ -5,10 +5,22 @@ Official golang implementation of the TouchCon protocol.
 ## Building the source
 
 Building gtc requires both a Go (version 1.10.1 or later) and a C compiler.
-You can install them using your favourite package manager.
-Once the dependencies are installed, run
 
+Clone the repository to a directory of your choosing:
+
+    git clone https://github.com/touchconDev/go-touchcon.git
+
+Building geth requires Go and C compilers to be installed:
+ 
+    sudo apt-get install -y build-essential
+    
+
+Finally, build the gtc program using the following command.
+ 
+    cd go-touchcon
     make gtc
+
+
 
 ## Executables
 
