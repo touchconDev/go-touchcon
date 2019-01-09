@@ -16,7 +16,7 @@
 
 package ethclient
 
-import "github.com/ethereum/go-ethereum"
+import "github.com/touchconDev/go-touchcon"
 
 // Verify that Client implements the ethereum interfaces.
 var (
@@ -32,3 +32,4 @@ var (
 	// _ = ethereum.PendingStateEventer(&Client{})
 	_ = ethereum.PendingContractCaller(&Client{})
 )
+

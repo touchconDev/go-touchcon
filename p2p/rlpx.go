@@ -35,12 +35,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/crypto/ecies"
-	"github.com/ethereum/go-ethereum/crypto/secp256k1"
-	"github.com/ethereum/go-ethereum/crypto/sha3"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/touchconDev/go-touchcon/crypto"
+	"github.com/touchconDev/go-touchcon/crypto/ecies"
+	"github.com/touchconDev/go-touchcon/crypto/secp256k1"
+	"github.com/touchconDev/go-touchcon/crypto/sha3"
+	"github.com/touchconDev/go-touchcon/p2p/discover"
+	"github.com/touchconDev/go-touchcon/rlp"
 	"github.com/golang/snappy"
 )
 

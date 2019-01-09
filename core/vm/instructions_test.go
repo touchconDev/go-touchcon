@@ -4,8 +4,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/touchconDev/go-touchcon/common"
+	"github.com/touchconDev/go-touchcon/params"
 )
 
 func TestByteOp(t *testing.T) {

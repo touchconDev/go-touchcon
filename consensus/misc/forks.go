@@ -19,9 +19,9 @@ package misc
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/touchconDev/go-touchcon/common"
+	"github.com/touchconDev/go-touchcon/core/types"
+	"github.com/touchconDev/go-touchcon/params"
 )
 
 // VerifyForkHashes verifies that blocks conforming to network hard-forks do have

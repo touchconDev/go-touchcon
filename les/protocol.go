@@ -26,11 +26,11 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/crypto/secp256k1"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/touchconDev/go-touchcon/common"
+	"github.com/touchconDev/go-touchcon/core"
+	"github.com/touchconDev/go-touchcon/crypto"
+	"github.com/touchconDev/go-touchcon/crypto/secp256k1"
+	"github.com/touchconDev/go-touchcon/rlp"
 )
 
 // Constants to match up protocol versions and messages

@@ -21,10 +21,10 @@ import (
 	"os/signal"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/console"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/touchconDev/go-touchcon/cmd/utils"
+	"github.com/touchconDev/go-touchcon/console"
+	"github.com/touchconDev/go-touchcon/node"
+	"github.com/touchconDev/go-touchcon/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

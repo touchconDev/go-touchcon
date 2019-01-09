@@ -26,12 +26,12 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/touchconDev/go-touchcon/core"
+	"github.com/touchconDev/go-touchcon/core/types"
+	"github.com/touchconDev/go-touchcon/internal/debug"
+	"github.com/touchconDev/go-touchcon/log"
+	"github.com/touchconDev/go-touchcon/node"
+	"github.com/touchconDev/go-touchcon/rlp"
 )
 
 const (

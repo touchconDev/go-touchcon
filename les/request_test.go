@@ -21,12 +21,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/light"
+	"github.com/touchconDev/go-touchcon/common"
+	"github.com/touchconDev/go-touchcon/core"
+	"github.com/touchconDev/go-touchcon/crypto"
+	"github.com/touchconDev/go-touchcon/eth"
+	"github.com/touchconDev/go-touchcon/ethdb"
+	"github.com/touchconDev/go-touchcon/light"
 )
 
 var testBankSecureTrieKey = secAddr(testBankAddress)

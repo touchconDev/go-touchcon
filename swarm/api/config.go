@@ -24,12 +24,12 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/contracts/ens"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/swarm/network"
-	"github.com/ethereum/go-ethereum/swarm/services/swap"
-	"github.com/ethereum/go-ethereum/swarm/storage"
+	"github.com/touchconDev/go-touchcon/common"
+	"github.com/touchconDev/go-touchcon/contracts/ens"
+	"github.com/touchconDev/go-touchcon/crypto"
+	"github.com/touchconDev/go-touchcon/swarm/network"
+	"github.com/touchconDev/go-touchcon/swarm/services/swap"
+	"github.com/touchconDev/go-touchcon/swarm/storage"
 )
 
 const (

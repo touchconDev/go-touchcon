@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/touchconDev/go-touchcon/common"
+	"github.com/touchconDev/go-touchcon/log"
+	"github.com/touchconDev/go-touchcon/p2p"
+	"github.com/touchconDev/go-touchcon/rlp"
 	set "gopkg.in/fatih/set.v0"
 )
 

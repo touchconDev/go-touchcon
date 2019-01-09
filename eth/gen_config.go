@@ -5,11 +5,11 @@ package eth
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/gasprice"
+	"github.com/touchconDev/go-touchcon/common"
+	"github.com/touchconDev/go-touchcon/common/hexutil"
+	"github.com/touchconDev/go-touchcon/core"
+	"github.com/touchconDev/go-touchcon/eth/downloader"
+	"github.com/touchconDev/go-touchcon/eth/gasprice"
 )
 
 func (c Config) MarshalTOML() (interface{}, error) {
@@ -180,3 +180,4 @@ func (c *Config) UnmarshalTOML(unmarshal func(interface{}) error) error {
 	}
 	return nil
 }
+

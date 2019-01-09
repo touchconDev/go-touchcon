@@ -26,10 +26,10 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/cmd/internal/browser"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/touchconDev/go-touchcon/cmd/internal/browser"
+	"github.com/touchconDev/go-touchcon/params"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
+	"github.com/touchconDev/go-touchcon/cmd/utils"
 	cli "gopkg.in/urfave/cli.v1"
 )
 

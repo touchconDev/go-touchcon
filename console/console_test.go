@@ -26,11 +26,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/internal/jsre"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/touchconDev/go-touchcon/common"
+	"github.com/touchconDev/go-touchcon/core"
+	"github.com/touchconDev/go-touchcon/eth"
+	"github.com/touchconDev/go-touchcon/internal/jsre"
+	"github.com/touchconDev/go-touchcon/node"
 )
 
 const (

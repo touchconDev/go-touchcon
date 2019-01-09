@@ -21,9 +21,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/touchconDev/go-touchcon/common"
+	"github.com/touchconDev/go-touchcon/rpc"
 )
+
 
 func TestUnmarshalJSONNewFilterArgs(t *testing.T) {
 	var (

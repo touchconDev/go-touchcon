@@ -30,8 +30,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/touchconDev/go-touchcon/accounts/keystore"
+	"github.com/touchconDev/go-touchcon/core/types"
 )
 
 // Tests that the account management snippets work correctly.

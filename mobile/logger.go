@@ -19,7 +19,7 @@ package gtc
 import (
 	"os"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/touchconDev/go-touchcon/log"
 )
 
 // SetVerbosity sets the global verbosity level (between 0 and 6 - see logger/verbosity.go).

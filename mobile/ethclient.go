@@ -21,8 +21,8 @@ package gtc
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethclient"
+	"github.com/touchconDev/go-touchcon/core/types"
+	"github.com/touchconDev/go-touchcon/ethclient"
 )
 
 // EthereumClient provides access to the Ethereum APIs.

@@ -28,11 +28,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/touchconDev/go-touchcon/event"
+	"github.com/touchconDev/go-touchcon/p2p"
+	"github.com/touchconDev/go-touchcon/p2p/discover"
+	"github.com/touchconDev/go-touchcon/p2p/simulations/adapters"
+	"github.com/touchconDev/go-touchcon/rpc"
 	"github.com/julienschmidt/httprouter"
 	"golang.org/x/net/websocket"
 )

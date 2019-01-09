@@ -25,11 +25,11 @@ import (
 	"os"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/touchconDev/go-touchcon/crypto"
+	"github.com/touchconDev/go-touchcon/node"
+	"github.com/touchconDev/go-touchcon/p2p"
+	"github.com/touchconDev/go-touchcon/p2p/discover"
+	"github.com/touchconDev/go-touchcon/rpc"
 )
 
 // Node represents a node in a simulation network which is created by a

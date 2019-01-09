@@ -22,8 +22,8 @@ import (
 	"io"
 	"sort"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/internal/debug"
+	"github.com/touchconDev/go-touchcon/cmd/utils"
+	"github.com/touchconDev/go-touchcon/internal/debug"
 	"gopkg.in/urfave/cli.v1"
 	"strings"
 )
@@ -71,8 +71,7 @@ var AppHelpFlagGroups = []flagGroup{
 			utils.KeyStoreDirFlag,
 			utils.NoUSBFlag,
 			utils.NetworkIdFlag,
-			utils.TestnetFlag,
-			utils.RinkebyFlag,
+			utils.TestnetFlag,			
 			utils.SyncModeFlag,
 			utils.EthStatsURLFlag,
 			utils.IdentityFlag,
@@ -98,16 +97,6 @@ var AppHelpFlagGroups = []flagGroup{
 			utils.EthashDatasetsOnDiskFlag,
 		},
 	},
-	//{
-	//	Name: "DASHBOARD",
-	//	Flags: []cli.Flag{
-	//		utils.DashboardEnabledFlag,
-	//		utils.DashboardAddrFlag,
-	//		utils.DashboardPortFlag,
-	//		utils.DashboardRefreshFlag,
-	//		utils.DashboardAssetsFlag,
-	//	},
-	//},
 	{
 		Name: "TRANSACTION POOL",
 		Flags: []cli.Flag{
@@ -173,18 +162,7 @@ var AppHelpFlagGroups = []flagGroup{
 			utils.NodeKeyFileFlag,
 			utils.NodeKeyHexFlag,
 		},
-	},
-	{
-		Name: "MINER",
-		Flags: []cli.Flag{
-			utils.MiningEnabledFlag,
-			utils.MinerThreadsFlag,
-			utils.EtherbaseFlag,
-			utils.TargetGasLimitFlag,
-			utils.GasPriceFlag,
-			utils.ExtraDataFlag,
-		},
-	},
+	},	
 	{
 		Name: "GAS PRICE ORACLE",
 		Flags: []cli.Flag{
@@ -205,11 +183,7 @@ var AppHelpFlagGroups = []flagGroup{
 			utils.FakePoWFlag,
 			utils.NoCompactionFlag,
 		}, debug.Flags...),
-	},
-	{
-		Name:  "WHISPER (EXPERIMENTAL)",
-		Flags: whisperFlags,
-	},
+	},	
 	{
 		Name: "DEPRECATED",
 		Flags: []cli.Flag{

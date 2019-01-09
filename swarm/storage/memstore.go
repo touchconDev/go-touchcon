@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/touchconDev/go-touchcon/log"
 )
 
 const (

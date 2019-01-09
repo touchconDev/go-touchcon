@@ -20,13 +20,13 @@ import (
 	"context"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/touchconDev/go-touchcon"
+	"github.com/touchconDev/go-touchcon/common"
+	"github.com/touchconDev/go-touchcon/common/hexutil"
+	"github.com/touchconDev/go-touchcon/core/types"
+	"github.com/touchconDev/go-touchcon/internal/ethapi"
+	"github.com/touchconDev/go-touchcon/rlp"
+	"github.com/touchconDev/go-touchcon/rpc"
 )
 
 // ContractBackend implements bind.ContractBackend with direct calls to Ethereum
@@ -136,3 +136,4 @@ func (b *ContractBackend) SendTransaction(ctx context.Context, tx *types.Transac
 	_, err := b.txapi.SendRawTransaction(ctx, raw)
 	return err
 }
+

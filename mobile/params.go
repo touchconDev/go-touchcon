@@ -21,9 +21,9 @@ package gtc
 import (
 	"encoding/json"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/p2p/discv5"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/touchconDev/go-touchcon/core"
+	"github.com/touchconDev/go-touchcon/p2p/discv5"
+	"github.com/touchconDev/go-touchcon/params"
 )
 
 // MainnetGenesis returns the JSON spec to use for the main Ethereum network. It

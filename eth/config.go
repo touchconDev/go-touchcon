@@ -23,12 +23,12 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/gasprice"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/touchconDev/go-touchcon/common"
+	"github.com/touchconDev/go-touchcon/common/hexutil"
+	"github.com/touchconDev/go-touchcon/core"
+	"github.com/touchconDev/go-touchcon/eth/downloader"
+	"github.com/touchconDev/go-touchcon/eth/gasprice"
+	"github.com/touchconDev/go-touchcon/params"
 )
 
 // DefaultConfig contains default settings for use on the Ethereum main net.
@@ -118,3 +118,4 @@ type Config struct {
 type configMarshaling struct {
 	ExtraData hexutil.Bytes
 }
+

@@ -27,12 +27,12 @@ import (
 	"time"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/internal/cmdtest"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethereum/go-ethereum/swarm"
+	"github.com/touchconDev/go-touchcon/accounts/keystore"
+	"github.com/touchconDev/go-touchcon/internal/cmdtest"
+	"github.com/touchconDev/go-touchcon/node"
+	"github.com/touchconDev/go-touchcon/p2p"
+	"github.com/touchconDev/go-touchcon/rpc"
+	"github.com/touchconDev/go-touchcon/swarm"
 )
 
 func init() {

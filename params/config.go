@@ -19,7 +19,7 @@ package params
 import (
 	"fmt"
 	"math/big"
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/touchconDev/go-touchcon/common"
 )
 
 var (

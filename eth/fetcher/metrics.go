@@ -19,7 +19,7 @@
 package fetcher
 
 import (
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/touchconDev/go-touchcon/metrics"
 )
 
 var (
@@ -41,3 +41,4 @@ var (
 	bodyFilterInMeter    = metrics.NewMeter("eth/fetcher/filter/bodies/in")
 	bodyFilterOutMeter   = metrics.NewMeter("eth/fetcher/filter/bodies/out")
 )
+

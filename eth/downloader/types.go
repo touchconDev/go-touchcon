@@ -19,7 +19,7 @@ package downloader
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/touchconDev/go-touchcon/core/types"
 )
 
 // peerDropFn is a callback type for dropping a peer detected as malicious.
@@ -63,6 +63,7 @@ type receiptPack struct {
 	peerId   string
 	receipts [][]*types.Receipt
 }
+
 
 func (p *receiptPack) PeerId() string { return p.peerId }
 func (p *receiptPack) Items() int     { return len(p.receipts) }
