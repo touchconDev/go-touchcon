@@ -109,24 +109,6 @@ doing so! Hackers on the internet are actively trying to subvert TouchCon nodes 
 Further, all browser tabs can access locally running webservers, so malicious webpages could try to
 subvert locally available APIs!**
 
-#### Creating the rendezvous point
-
-With all nodes that you want to run initialized to the desired genesis state, you'll need to start a
-bootstrap node that others can use to find each other in your network and/or over the internet. The
-clean way is to configure and run a dedicated bootnode:
-
-```
-$ bootnode --genkey=boot.key
-$ bootnode --nodekey=boot.key
-```
-
-With the bootnode online, it will display an [`enode` URL](https://github.com/ethereum/wiki/wiki/enode-url-format)
-that other nodes can use to connect to it and exchange peer information. Make sure to replace the
-displayed IP address information (most probably `[::]`) with your externally accessible IP to get the
-actual `enode` URL.
-
-*Note: You could also use a full fledged GTC node as a bootnode, but it's the less recommended way.*
-
 #### Starting up your member nodes
 
 With the bootnode operational and externally reachable (you can try `telnet <ip> <port>` to ensure
@@ -135,7 +117,7 @@ via the `--bootnodes` flag. It will probably also be desirable to keep the data 
 private network separated, so do also specify a custom `--datadir` flag.
 
 ```
-$ GTC --datadir=path/to/custom/data/folder --bootnodes=<bootnode-enode-url-from-above>
+$ gtc --datadir=path/to/custom/data/folder --bootnodes=<bootnode-enode-url-from-above>
 ```
 
 *Note: Since your network will be completely cut off from the main and test networks, you'll also
