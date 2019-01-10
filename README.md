@@ -11,9 +11,9 @@ Clone the repository to a directory of your choosing:
     git clone https://github.com/touchconDev/go-touchcon.git
 
 Building geth requires Go and C compilers to be installed:
-    - ubuntu
+    `ubuntu`
     sudo apt-get install -y build-essential
-    - centos
+    `centos`
     sudo yum install -y epel-release
     
 
