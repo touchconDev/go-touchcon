@@ -1,8 +1,8 @@
 ## GO TOUCHCON
 
-Official golang implementation of the TouchCon protocol.
+Official golang implementation of the Ethereum-based TouchCon protocol.
 
-## Building the source
+## Building the source (Ubuntu)
 
 Building gtc requires both a Go (version 1.10.1 or later) and a C compiler.
 
