@@ -2,7 +2,7 @@
 
 Official golang implementation of the Ethereum-based TouchCon protocol.
 
-## Building the source (Ubuntu)
+## Building the source 
 
 Building gtc requires both a Go (version 1.10.1 or later) and a C compiler.
 
@@ -11,8 +11,10 @@ Clone the repository to a directory of your choosing:
     git clone https://github.com/touchconDev/go-touchcon.git
 
 Building geth requires Go and C compilers to be installed:
- 
+    - ubuntu
     sudo apt-get install -y build-essential
+    - centos
+    sudo yum install -y epel-release
     
 
 Finally, build the gtc program using the following command.
@@ -73,7 +75,7 @@ This command will:
 As a developer, sooner rather than later you'll want to start interacting with GTC and the TouchCon
 network via your own programs and not manually through the console. To aid this, GTC has built-in
 support for a JSON-RPC based APIs ([standard APIs](https://github.com/ethereum/wiki/wiki/JSON-RPC) and
-[GTC specific APIs](https://github.com/ethereum/go-ethereum/wiki/Management-APIs)). These can be
+[gtc specific APIs](https://github.com/ethereum/go-ethereum/wiki/Management-APIs)). These can be
 exposed via HTTP, WebSockets and IPC (unix sockets on unix based platforms, and named pipes on Windows).
 
 The IPC interface is enabled by default and exposes all the APIs supported by GTC, whereas the HTTP
